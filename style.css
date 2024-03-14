@@ -1412,7 +1412,7 @@ button:focus {
 }
 @media only screen and (max-width: 768px) {
   .gallery-grid__image-wrap {
-    height: 18.125rem;
+    height: 9.125rem;
   }
 }
 .gallery-grid-two .gallery-grid__image-wrap {
