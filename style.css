@@ -29,25 +29,31 @@ body, html {
   -webkit-text-size-adjust: 100%;
 }
 .cl-1{
+      padding: 12px;
   background-color: rgb(203, 45, 45);
 }
 
 .cl-2{
+      padding: 12px;
   background-color: #342d5a;
 }
 .cl-6{
+      padding: 12px;
   background-color: #0dbd24;
 }
 
 .cl-3{
+      padding: 12px;
   background-color: #102438;
 }
 .cl-4{
+    padding: 12px;
   background-color: rgb(214, 214, 9);
 }
 
 .cl-5{
   background-color: #a82b5d;
+    padding: 12px;
 }
 body {
   background: #F7F9FA;
