@@ -204,8 +204,18 @@
 										</div>
 										<figcaption class="gallery-grid__caption">
 											<h4 class="title title--h6 gallery-grid__title">Pokedex</h4>
-											<span class="gallery-grid__category">Projeto criado para aprimorar minhas habilidades com JavaScript.</span>
+											<span class="gallery-grid__category">Projeto criado em para aprimorar minhas habilidades com JavaScript.</span>
 											<a href="https://miviwd.github.io/pokedex/">Veja o site</a>
+												<a  onclick="abrirModal()">Informações</a>
+											  
+											  
+											  <div id="modal" class="modal">
+												<div class="modal-content">
+												  <span class="fechar" onclick="fecharModal()">&times;</span>
+												  <h2>Informações:</h2>
+												  <p>Apesar de está acostumada com a linguagem JavaScript, tive algumas dificuldade envolvendo funções que muitas vezes davam erros que nunca havia lidado, mas com muita consultória e análises, consegui obter um bom resultado e fazer o código funcionar!</p>
+												</div>
+											  </div>
 										</figcaption>
 									</figure>
 									<figure class="gallery-grid__item web-development" style="position: absolute; left: 0%; top: 1214.8px;">
@@ -215,8 +225,6 @@
 										</div>
 										<figcaption class="gallery-grid__caption">
 											<h4 class="title title--h6 gallery-grid__title">Flowers</h4>
-											
-
 											<span class="gallery-grid__category">Projeto que fiz sendo acompanhada por um tutor focado para melhorar minhas habilidades com JavaScript e principalmente com CSS.</span>
 										</figcaption>
 									</figure>
@@ -234,6 +242,17 @@
 
 											<span class="gallery-grid__category">Projeto criado com  intenção de armazenar histórias e intergir com playlist´s</span>
 											<a href="https://t.co/6vLxRT9xuA">Veja o site</a>
+											<a  onclick="abrirModal()">Informações</a>
+											  
+											  
+											  <div id="modal" class="modal">
+												<div class="modal-content">
+												  <span class="fechar" onclick="fecharModal()">&times;</span>
+												  <h2>Informações:</h2>
+												  <p>Foi a primeira vez que desevolvi um projeto com animações e entender como as propriedades funcionava foi o meu maior desafio.</p>
+												</div>
+											  </div>
+											
 										</figcaption>
 										
 									</figure>
@@ -247,6 +266,16 @@
 											<h4 class="title title--h6 gallery-grid__title">Esims</h4>
 											<span class="gallery-grid__category">Projeto feito com a intenção de vender chip´s de celular com planos que funcionem em diversos países usando o mesmo número.</span>
 											<a href="https://www.esims.com.br/carrinho">Veja o site</a>
+											<a  onclick="abrirModal()">Informações</a>
+											  
+											  
+											  <div id="modal" class="modal">
+												<div class="modal-content">
+												  <span class="fechar" onclick="fecharModal()">&times;</span>
+												  <h2>Informações:</h2>
+												  <p>Foi o meu primeiro projeto em grupo e eu tinha muitas duvidas, principalmente quando se tratava sobre responsividade, mas aprendi que existem frameworks que poderiam me ajudar muito e facilitar no desenvolvimento responsivo de sites.</p>
+												</div>
+											  </div>
 										</figcaption>
 									</figure>
 
@@ -260,6 +289,16 @@
 											<h4 class="title title--h6 gallery-grid__title">Elastic Code</h4>
 											<span class="gallery-grid__category">Projeto feito com a inteção de mostrar a história da Elastic Code e receber novos clientes.</span>
 											<a href="https://www.elasticcode.com.br/contate-nos.html">Veja o site</a>
+											<a  onclick="abrirModal()">Informações</a>
+											  
+											  
+											  <div id="modal" class="modal">
+												<div class="modal-content">
+												  <span class="fechar" onclick="fecharModal()">&times;</span>
+												  <h2>Informações:</h2>
+												  <p>Quando participei deste projeto, a princípio, eu não dominava muito a questão de posicionr imagens com as propriedades position absolute e relative, mas com ajuda de umz colega e estudos, consegui aperfeiçoar e entregá-lo perfeitamente.</p>
+												</div>
+											  </div>
 										</figcaption>
 									</figure>
 
@@ -303,6 +342,17 @@
 		$('[data-toggle="tooltip"]').tooltip({
 			trigger : 'hover'
 		});
+		
+		function abrirModal() {
+  document.getElementById('modal').style.display = 'block';
+}
+
+function fecharModal() {
+  document.getElementById('modal').style.display = 'none';
+}
+
+
+
 	</script>
 </body>
 
