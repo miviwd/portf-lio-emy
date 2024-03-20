@@ -215,10 +215,12 @@ select option,
   background-color: #102438;
 }
 .cl-4{
-      padding: 12px;
-  background-color: rgb(214, 214, 9);
+  padding: 12px;
+background-color: rgb(167, 167, 22);
 }
-
+.code{
+  width: 12%;
+}
 .cl-5{
       padding: 12px;
   background-color: #a82b5d;
@@ -245,10 +247,10 @@ select option,
 
 .nav__item a {
   background-color: #2E2F36;
-  color: #AEB0B8;
+  color: #ffffff;
 }
 .nav__item a:hover {
-  color: #342d5a;
+  color: #bda0ff;
 }
 @media only screen and (max-width: 580px) {
   .nav__item a {
